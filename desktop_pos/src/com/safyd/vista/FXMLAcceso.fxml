@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="panelPrincipal" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.safyd.controlador.FXMLAccesoControlador">
+   <children>
+      <GridPane layoutX="253.0" layoutY="139.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" minWidth="10.0" prefWidth="10.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" minWidth="10.0" prefWidth="10.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+          <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Group style="-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0); -fx-background-radius: 5px;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <AnchorPane prefHeight="192.0" prefWidth="200.0" style="-fx-background-color: FFF; -fx-background-radius: 5px;">
+                     <children>
+                        <AnchorPane layoutX="2.0" layoutY="29.0" prefHeight="32.0" style="-fx-background-color: #01A9DB;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <JFXButton fx:id="btnEstilo" layoutX="176.0" layoutY="2.0" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: FFF; -fx-border-radius: 01;" text=" " AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0" />
+                              <Label layoutX="7.0" layoutY="4.0" text="Binvenido" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="0.0">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <TextField fx:id="txtUsuario" layoutX="10.0" layoutY="51.0" prefHeight="25.0" prefWidth="175.0" promptText="Usuario" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+                        <TextField fx:id="txtContrasena" layoutX="10.0" layoutY="92.0" prefHeight="25.0" prefWidth="175.0" promptText="Contraseña" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+                        <JFXButton fx:id="btnEntrar" layoutX="14.0" layoutY="126.0" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #01A9DB;" text="Entrar" textFill="WHITE" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Group>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
