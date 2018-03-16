@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
@@ -13,18 +14,10 @@ public final class FXMLAccesoControlador implements Initializable {
 
     @FXML
     private AnchorPane panelPrincipal;
-
     @FXML
-    private JFXButton btnEstilo;
-
+    private Button btnSoporte, btnConfiguracion, btnTema, btnEntrar;
     @FXML
-    private TextField txtContrasena;
-
-    @FXML
-    private TextField txtUsuario;
-
-    @FXML
-    private JFXButton btnEntrar;
+    private TextField txtUsuario, txtContrasena;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {

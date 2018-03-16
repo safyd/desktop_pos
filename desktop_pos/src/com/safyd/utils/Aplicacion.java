@@ -17,6 +17,7 @@ public class Aplicacion extends Application {
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource(principal()));
         AnchorPane pane = loader.load();
+        //pane.setStyle("/com/safyd/diseño/bootstrap.css");
         Scene scene = new Scene(pane);
         stage.setScene(scene);
         stage.show();
@@ -24,7 +25,7 @@ public class Aplicacion extends Application {
     }
 
     private String principal() {
-        return "/com.safyd.vista/FXMLAcceso.fxml";
+        return "/com/safyd/vista/FXMLAcceso.fxml";
     }
 
 }

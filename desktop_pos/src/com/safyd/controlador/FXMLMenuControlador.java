@@ -3,7 +3,6 @@ package com.safyd.controlador;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXDrawer;
-import com.safyd.utils.principalEstructura;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -12,7 +11,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
-public class FXMLMenuControlador extends AnchorPane implements principalEstructura {
+public class FXMLMenuControlador extends AnchorPane {
 
     @FXML
     private JFXButton btnReporte;
@@ -38,23 +37,7 @@ public class FXMLMenuControlador extends AnchorPane implements principalEstructu
     @FXML
     private ImageView btn;
 
-    @Override
-    public void abrir() {
-    }
-
-    @Override
-    public void cerrar() {
-    }
-
-    @Override
-    public void accion() {
-    }
-
-    @Override
-    public void mensaje() {
-    }
-
-    @Override
+   
     public String init() {
         return "/com/safyd/vista/FXMLMenu.fxml";
     }

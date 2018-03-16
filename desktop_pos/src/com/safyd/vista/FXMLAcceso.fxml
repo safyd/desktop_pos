@@ -8,8 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" fx:id="panelPrincipal" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.safyd.controlador.FXMLAccesoControlador">
+<AnchorPane id="AnchorPane" fx:id="panelPrincipal" prefHeight="544.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.safyd.controlador.FXMLAccesoControlador">
    <children>
       <GridPane layoutX="253.0" layoutY="139.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <columnConstraints>
@@ -19,35 +18,99 @@
         </columnConstraints>
         <rowConstraints>
           <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" valignment="CENTER" vgrow="SOMETIMES" />
           <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" valignment="CENTER" vgrow="SOMETIMES" />
           <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Group style="-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0); -fx-background-radius: 5px;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Group style="-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0); -fx-background-radius: 5px;" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
-                  <AnchorPane prefHeight="192.0" prefWidth="200.0" style="-fx-background-color: FFF; -fx-background-radius: 5px;">
+                  <AnchorPane prefHeight="234.0" prefWidth="286.0" style="-fx-background-color: FFF; -fx-background-radius: 5px;">
                      <children>
-                        <AnchorPane layoutX="2.0" layoutY="29.0" prefHeight="32.0" style="-fx-background-color: #01A9DB;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <AnchorPane layoutX="2.0" layoutY="29.0" prefHeight="30.0" style="-fx-background-color: #01A9DB;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
-                              <JFXButton fx:id="btnEstilo" layoutX="176.0" layoutY="2.0" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: FFF; -fx-border-radius: 01;" text=" " AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0" />
                               <Label layoutX="7.0" layoutY="4.0" text="Binvenido" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="0.0">
                                  <font>
-                                    <Font size="15.0" />
+                                    <Font size="24.0" />
                                  </font>
                               </Label>
                            </children>
                         </AnchorPane>
-                        <TextField fx:id="txtUsuario" layoutX="10.0" layoutY="51.0" prefHeight="25.0" prefWidth="175.0" promptText="Usuario" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
-                        <TextField fx:id="txtContrasena" layoutX="10.0" layoutY="92.0" prefHeight="25.0" prefWidth="175.0" promptText="Contraseña" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
-                        <JFXButton fx:id="btnEntrar" layoutX="14.0" layoutY="126.0" prefHeight="50.0" prefWidth="180.0" style="-fx-background-color: #01A9DB;" text="Entrar" textFill="WHITE" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
-                           <font>
-                              <Font size="15.0" />
-                           </font>
-                        </JFXButton>
+                        <GridPane layoutX="43.0" layoutY="72.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" minWidth="10.0" prefWidth="10.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" minWidth="10.0" prefWidth="10.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="30.0" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Usuario" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Contraseña" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <children>
+                                    <TextField fx:id="txtUsuario" layoutX="67.0" layoutY="2.0" promptText="Usuario" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <children>
+                                    <TextField fx:id="txtContrasena" layoutX="14.0" layoutY="2.0" promptText="Contraseña" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                 <children>
+                                    <Button fx:id="btnEntrar" layoutX="42.0" layoutY="10.0" mnemonicParsing="false" stylesheets="@../../../com.safyd.diseño/bootstrap.css" text="Entrar" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                       <styleClass>
+                                          <String fx:value="action-btn" />
+                                          <String fx:value="success" />
+                                       </styleClass>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </GridPane>
                      </children>
                   </AnchorPane>
                </children>
             </Group>
+            <GridPane GridPane.columnIndex="1" GridPane.rowIndex="3">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" minWidth="10.0" prefWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" minWidth="10.0" prefWidth="10.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="btnSoporte" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text=" " />
+                  <Button fx:id="btnConfiguracion" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text=" " GridPane.columnIndex="2" />
+                  <Button fx:id="btnTema" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text=" " GridPane.columnIndex="4" />
+               </children>
+            </GridPane>
          </children>
       </GridPane>
    </children>

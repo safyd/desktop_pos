@@ -18,7 +18,7 @@ public class Estilo {
 
     public class Fondo {
 
-        public static final String Fondo01 = "-fx-background-image: url(\"/com.safyd.complemento.imagen/fondo01.jpg\");" + "-fx-background-size: cover;";
+        public static final String Fondo01 = "-fx-background-image: url(\"/com/safyd/complemento/imagen/fondo01.jpg\");" + "-fx-background-size: cover;";
     }
 
     public class Tipo {
