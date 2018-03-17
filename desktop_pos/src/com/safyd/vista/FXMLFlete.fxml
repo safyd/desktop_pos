@@ -5,10 +5,9 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../com.safyd.diseño/bootstrap.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <GridPane layoutX="8.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-0.0" AnchorPane.topAnchor="0.0">
+      <GridPane layoutX="8.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" minWidth="10.0" prefWidth="10.0" />
           <ColumnConstraints hgrow="SOMETIMES" />
@@ -200,7 +199,7 @@
                <children>
                   <AnchorPane>
                      <children>
-                        <Button layoutX="117.0" layoutY="13.0" mnemonicParsing="false" text="Cancelar" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+                        <Button layoutX="117.0" layoutY="13.0" mnemonicParsing="false" styleClass="danger" text="Cancelar" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
                            <font>
                               <Font size="14.0" />
                            </font>
@@ -209,7 +208,7 @@
                   </AnchorPane>
                   <AnchorPane GridPane.columnIndex="2">
                      <children>
-                        <Button layoutX="110.0" layoutY="13.0" mnemonicParsing="false" text="Aceptar" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+                        <Button layoutX="110.0" layoutY="13.0" mnemonicParsing="false" styleClass="primary" text="Aceptar" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
                            <font>
                               <Font size="13.0" />
                            </font>
@@ -220,5 +219,15 @@
             </GridPane>
          </children>
       </GridPane>
+      <AnchorPane layoutX="83.0" layoutY="-36.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #01A9DB;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="50.0" layoutY="17.0" text="Flete" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="494.0" layoutY="13.0" mnemonicParsing="false" text=" " AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="9.0" />
+         </children>
+      </AnchorPane>
    </children>
 </AnchorPane>
