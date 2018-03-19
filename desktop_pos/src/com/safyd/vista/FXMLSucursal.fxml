@@ -52,7 +52,7 @@
                   </Label>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                      <children>
-                        <TextField fx:id="txtClave" layoutX="14.0" layoutY="23.0" promptText="Clave" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <TextField fx:id="txtClave" layoutX="14.0" layoutY="23.0" promptText="Clave" styleClass="last" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
                   <Label text="Nombre:" GridPane.rowIndex="2">
@@ -62,7 +62,7 @@
                   </Label>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <children>
-                        <TextField fx:id="txtNombre" layoutX="39.0" layoutY="52.0" promptText="Nombre" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <TextField fx:id="txtNombre" layoutX="39.0" layoutY="52.0" promptText="Nombre" styleClass="last" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
                   <Label prefHeight="17.0" prefWidth="68.0" text="Dirección:" GridPane.rowIndex="4">
@@ -72,7 +72,7 @@
                   </Label>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <children>
-                        <TextField fx:id="txtDireccion" layoutX="38.0" layoutY="2.0" promptText="Dirección" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <TextField fx:id="txtDireccion" layoutX="38.0" layoutY="2.0" promptText="Dirección" styleClass="last" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
                   <Label text="Número Exterior:" GridPane.rowIndex="8">
@@ -103,7 +103,7 @@
                      <children>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0">
                            <children>
-                              <TextField fx:id="txtNumeroExterior" layoutX="76.0" layoutY="2.0" promptText="Número exterior" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <TextField fx:id="txtNumeroExterior" layoutX="76.0" layoutY="2.0" promptText="Número exterior" styleClass="last" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                            </children>
                         </AnchorPane>
                         <Label text="Número Interior:" GridPane.columnIndex="2">
@@ -113,7 +113,7 @@
                         </Label>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3">
                            <children>
-                              <TextField fx:id="txtNumeroInterior" layoutX="76.0" layoutY="2.0" promptText="Número interior" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <TextField fx:id="txtNumeroInterior" layoutX="76.0" layoutY="2.0" promptText="Número interior" styleClass="last" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -131,7 +131,7 @@
                      <children>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0">
                            <children>
-                              <TextField fx:id="txtEstado" layoutX="65.0" layoutY="2.0" promptText="Estado" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <TextField fx:id="txtEstado" layoutX="65.0" layoutY="2.0" promptText="Estado" styleClass="last" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                            </children>
                         </AnchorPane>
                         <Label text="Municipio:" GridPane.columnIndex="2">
@@ -141,7 +141,7 @@
                         </Label>
                         <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3">
                            <children>
-                              <TextField fx:id="txtMunicipio" layoutX="-49.0" layoutY="2.0" promptText="Municipio" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <TextField fx:id="txtMunicipio" layoutX="-49.0" layoutY="2.0" promptText="Municipio" styleClass="last" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                            </children>
                         </AnchorPane>
                      </children>
