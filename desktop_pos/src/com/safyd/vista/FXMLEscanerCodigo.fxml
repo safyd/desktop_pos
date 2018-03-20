@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #78c295ff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="200.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="203.0" layoutY="40.0" text="Escaner de codigo">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="269.0" layoutY="330.0" mnemonicParsing="false" text="Escanear" />
+   </children>
+</AnchorPane>
