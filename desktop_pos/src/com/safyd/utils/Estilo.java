@@ -6,6 +6,7 @@ public class Estilo {
 
         public static final String HECHO = "-fx-background-image: url(\"/com/safyd/complemento/icono/hecho.png\");" + "-fx-background-size: cover;";
         public static final String CERRAR = "-fx-background-image: url(\"/com/safyd/complemento/icono/cerrar.png\");" + "-fx-background-size: cover;";
+    
     }
 
     public class Color {
