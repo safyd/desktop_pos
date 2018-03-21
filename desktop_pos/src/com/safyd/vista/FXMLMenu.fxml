@@ -22,37 +22,99 @@
          </children>
       </AnchorPane>
       <AnchorPane fx:id="panelPrincipal" layoutX="139.0" layoutY="248.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: FFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
-      <JFXDrawer fx:id="drwMenu" prefHeight="603.0" prefWidth="192.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="50.0">
+      <JFXDrawer fx:id="drwMenu" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="50.0">
          <children>
-            <VBox prefHeight="200.0" prefWidth="100.0">
+            <VBox>
                <children>
-                  <TitledPane animated="false" text="Venta">
+                  <TitledPane animated="false" text="Compra">
                      <content>
                         <VBox prefHeight="200.0" prefWidth="100.0">
                            <children>
-                              <Button mnemonicParsing="false" text="Abrir Caja" />
-                              <Button mnemonicParsing="false" text="Generar Reporte" />
+                              <Button mnemonicParsing="false" text="Elaborar compra" />
+                              <Button mnemonicParsing="false" text="Reporte compra" />
+                              <Button mnemonicParsing="false" text="etc" />
                            </children>
                         </VBox>
                      </content>
                   </TitledPane>
                   <TitledPane animated="false" text="Compra">
                      <content>
-                        <VBox prefHeight="200.0" prefWidth="100.0" />
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" text="Elaborar compra" />
+                              <Button mnemonicParsing="false" text="Reporte compra" />
+                              <Button mnemonicParsing="false" text="etc" />
+                           </children>
+                        </VBox>
                      </content>
                   </TitledPane>
-                  <TitledPane animated="false" text="Inventario">
+                  <TitledPane animated="false" text="Compra">
                      <content>
-                        <VBox prefHeight="200.0" prefWidth="100.0" />
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" text="Elaborar compra" />
+                              <Button mnemonicParsing="false" text="Reporte compra" />
+                              <Button mnemonicParsing="false" text="etc" />
+                           </children>
+                        </VBox>
                      </content>
                   </TitledPane>
-                  <TitledPane animated="false" text="Devolcuión">
+                  <TitledPane animated="false" text="Compra">
                      <content>
-                        <VBox prefHeight="200.0" prefWidth="100.0" />
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" text="Elaborar compra" />
+                              <Button mnemonicParsing="false" text="Reporte compra" />
+                              <Button mnemonicParsing="false" text="etc" />
+                           </children>
+                        </VBox>
                      </content>
                   </TitledPane>
-               </children>
-            </VBox>
+                  <TitledPane animated="false" text="Compra">
+                     <content>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" text="Elaborar compra" />
+                              <Button mnemonicParsing="false" text="Reporte compra" />
+                              <Button mnemonicParsing="false" text="etc" />
+                           </children>
+                        </VBox>
+                     </content>
+                  </TitledPane>
+                  <TitledPane animated="false" text="Compra">
+                     <content>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" text="Elaborar compra" />
+                              <Button mnemonicParsing="false" text="Reporte compra" />
+                              <Button mnemonicParsing="false" text="etc" />
+                           </children>
+                        </VBox>
+                     </content>
+                  </TitledPane>
+                  <TitledPane animated="false" text="Compra">
+                     <content>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" text="Elaborar compra" />
+                              <Button mnemonicParsing="false" text="Reporte compra" />
+                              <Button mnemonicParsing="false" text="etc" />
+                           </children>
+                        </VBox>
+                     </content>
+                  </TitledPane>
+                  <TitledPane animated="false" text="Compra">
+                     <content>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Button mnemonicParsing="false" text="Elaborar compra" />
+                              <Button mnemonicParsing="false" text="Reporte compra" />
+                              <Button mnemonicParsing="false" text="etc" />
+                           </children>
+                        </VBox>
+                     </content>
+                  </TitledPane>
+               </children></VBox>
          </children>
       </JFXDrawer>
    </children>
