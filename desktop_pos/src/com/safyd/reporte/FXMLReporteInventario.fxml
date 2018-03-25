@@ -113,7 +113,7 @@
                       <TreeTableColumn prefWidth="130.0" text="Codigo" />
                       <TreeTableColumn prefWidth="250.0" text="Producto" />
                         <TreeTableColumn prefWidth="130.0" text="Costo" />
-                        <TreeTableColumn prefWidth="130.0" text="Precio Venta" />
+                        <TreeTableColumn prefWidth="130.0" text="Precio" />
                         <TreeTableColumn prefWidth="130.0" text="Existencia" />
                     </columns>
                   </TreeTableView>
