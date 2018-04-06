@@ -19,7 +19,7 @@
           <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
             <RowConstraints maxHeight="260.0" minHeight="260.0" prefHeight="260.0" vgrow="SOMETIMES" />
             <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="80.0" minHeight="80.0" prefHeight="80.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
             <RowConstraints vgrow="SOMETIMES" />
           <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
             <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
@@ -40,8 +40,6 @@
               </columnConstraints>
               <rowConstraints>
                 <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
-                  <RowConstraints maxHeight="10.0" minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
-                  <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
                   <Label text="Código postal:" GridPane.columnIndex="6">
@@ -54,26 +52,6 @@
                         <TextField editable="false" layoutY="9.0" promptText="Código postal" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
-                  <Label text="Contraseña:" GridPane.rowIndex="2">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-                  <Label text="Confirmar contraseña:" GridPane.columnIndex="6" GridPane.rowIndex="2">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
-                     <children>
-                        <PasswordField layoutX="-22.0" layoutY="14.0" promptText="Contraseña" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
-                     <children>
-                        <PasswordField layoutX="14.0" layoutY="9.0" promptText="Confirmar contraseña" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                     </children>
-                  </AnchorPane>
                   <Label text="Dirección:">
                      <font>
                         <Font size="14.0" />
@@ -82,16 +60,6 @@
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                      <children>
                         <TextField layoutY="9.0" promptText="Dirección" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
-                     <children>
-                        <CheckBox layoutX="25.0" layoutY="6.0" mnemonicParsing="false" text="ver" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="9" GridPane.rowIndex="2">
-                     <children>
-                        <CheckBox layoutX="25.0" layoutY="6.0" mnemonicParsing="false" text="ver" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
                </children>
@@ -290,7 +258,7 @@
       </GridPane>
       <AnchorPane layoutX="24.0" layoutY="-86.0" prefHeight="50.0" style="-fx-background-color: #01A9DB;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="14.0" layoutY="17.0" text="Usuario" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="0.0">
+            <Label layoutX="14.0" layoutY="17.0" text="Cliente" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="0.0">
                <font>
                   <Font size="24.0" />
                </font>
