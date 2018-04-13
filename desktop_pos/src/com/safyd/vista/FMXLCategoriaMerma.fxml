@@ -98,7 +98,7 @@
                         <TextField layoutX="14.0" layoutY="9.0" promptText="Nueva  Categoria" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
-                  <Label text="Clve:" GridPane.columnIndex="4" />
+                  <Label text="Clave:" GridPane.columnIndex="4" />
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6">
                      <children>
                         <TextField layoutX="21.0" layoutY="5.0" promptText="Clave" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
@@ -128,7 +128,7 @@
                   </Label>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                      <children>
-                        <TextField layoutX="-9.0" layoutY="3.0" promptText="Cantidad" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <TextField layoutX="-9.0" layoutY="3.0" promptText="Descripción" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <font>
                               <Font size="14.0" />
                            </font>
